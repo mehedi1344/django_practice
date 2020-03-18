@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms Practise</title>
+</head>
+<body>
+<h1>Course Sign Up page</h1>
+<form action="/home/sumon/Django/Django Practice/html/HTML Level Two - Advanced/thanks.html">
+
+    <p>Please Note: First Name,Last Name,Email and Password are needed</p>
+    <label for="fname">First Name:</label>
+    <input id="fname" type="text" name="fname" placeholder="First Name" required>
+    <label for="lname">First Name:</label>
+    <input id="lname" type="text" name="lname" placeholder="Last Name" required><br>
+    <label for="email">Email:</label>
+    <input id="email" type="email" name="email" placeholder="name@gmail.com" required>
+    <label for="passwd">Password:</label>
+    <input id="passwd" type="password" name="passwd" required>
+
+    <p>Are you over the age of 18?</p>
+    <label for="over_18">Yes</label>
+    <input type="radio" id="over_18" name="age_confirmation">
+    <label for="under_18">No</label>
+    <input type="radio" id="under_18" name="age_confirmation">
+
+    <p>Do you have a credit card or PayPal</p>
+    <select name="account">
+        <option value="credit_card">Credit Card</option>
+        <option value="pay_pal">PayPal</option>
+    </select><br><br>
+    <input type="submit" value="Sign Up">
+
+</form>
+</body>
+</html>
